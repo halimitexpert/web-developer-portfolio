@@ -29,7 +29,7 @@
     padding: 18px 36px;
     border-radius: 5px;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     border: none;
 }
 .section-title{
@@ -136,4 +136,143 @@ main section{
 }
 .section-description{
     margin-bottom: 52px;
+}
+
+/* resume section style  */
+.resume-container{
+    display: flex;
+    gap: 24px;
+    text-align: start;
+}
+.resume-colmun-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #181818;
+}
+.exprience-title{
+    font-size: 25px;
+    color: #474747;
+}
+.exprience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.exprience-description{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+.resume hr{
+    margin: 30px 5px;
+}
+.resume-download-cv{
+    margin-top: 50px;
+}
+/* Footer layout */
+footer {
+  background-color: #FFF8F3;
+  padding: 80px 120px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+
+/* Left side */
+.social-items {
+  flex: 1;
+  min-width: 280px;
+}
+
+.social-title {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.social-description {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Social icons */
+.social-link {
+  margin-top: 15px;
+}
+
+.social-link i {
+  margin-right: 12px;
+  color: #FD6E0A;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.social-link i:hover {
+  opacity: 0.7;
+}
+
+/* Right side */
+.form {
+  flex: 1;
+  min-width: 280px;
+}
+
+.form-title {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+/* Form styling */
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background: transparent;
+  outline: none;
+  font-size: 14px;
+}
+
+/* FIXED textarea */
+.textarea {
+  height: 120px;
+  resize: none;
+}
+
+/* Button */
+.btn-primary {
+  width: 120px;
+  padding: 10px;
+  background-color: #FD6E0A;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #e65c00;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  footer {
+    padding: 50px 20px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+  }
 }
